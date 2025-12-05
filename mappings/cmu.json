@@ -1,0 +1,31 @@
+{
+  "name": "CMU Motion Capture",
+  "description": "CMU Graphics Lab Motion Capture Database naming convention",
+  "joints": {
+    "hip": "Pelvis",
+    "lfemur": "L_Hip",
+    "rfemur": "R_Hip",
+    "lowerback": "Spine1",
+    "ltibia": "L_Knee",
+    "rtibia": "R_Knee",
+    "upperback": "Spine2",
+    "lfoot": "L_Ankle",
+    "rfoot": "R_Ankle",
+    "thorax": "Spine3",
+    "ltoes": "L_Foot",
+    "rtoes": "R_Foot",
+    "lowerneck": "Neck",
+    "lclavicle": "L_Collar",
+    "rclavicle": "R_Collar",
+    "head": "Head",
+    "lhumerus": "L_Shoulder",
+    "rhumerus": "R_Shoulder",
+    "lradius": "L_Elbow",
+    "rradius": "R_Elbow",
+    "lwrist": "L_Wrist",
+    "rwrist": "R_Wrist",
+    "lhand": "L_Hand",
+    "rhand": "R_Hand"
+  }
+}
+

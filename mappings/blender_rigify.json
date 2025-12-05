@@ -1,0 +1,29 @@
+{
+  "name": "Blender Rigify",
+  "description": "Blender's Rigify addon naming convention",
+  "joints": {
+    "spine": "Pelvis",
+    "thigh.L": "L_Hip",
+    "thigh.R": "R_Hip",
+    "spine.001": "Spine1",
+    "shin.L": "L_Knee",
+    "shin.R": "R_Knee",
+    "spine.002": "Spine2",
+    "foot.L": "L_Ankle",
+    "foot.R": "R_Ankle",
+    "spine.003": "Spine3",
+    "toe.L": "L_Foot",
+    "toe.R": "R_Foot",
+    "spine.004": "Neck",
+    "shoulder.L": "L_Collar",
+    "shoulder.R": "R_Collar",
+    "spine.006": "Head",
+    "upper_arm.L": "L_Shoulder",
+    "upper_arm.R": "R_Shoulder",
+    "forearm.L": "L_Elbow",
+    "forearm.R": "R_Elbow",
+    "hand.L": "L_Wrist",
+    "hand.R": "R_Wrist"
+  }
+}
+
