@@ -1,9 +1,7 @@
-"""FBX file reader implementation with ASCII FBX support."""
-
+import numpy as np
+import re
 from pathlib import Path
 from typing import Tuple, List, Dict, Optional
-import re
-import numpy as np
 
 from src.readers.base import BaseReader
 from src.core.motion import MotionData
@@ -15,9 +13,7 @@ FBX_TIME_UNIT = 46186158000
 
 
 @FormatRegistry.register_reader("fbx", extensions=["fbx"])
-class FBXReader(BaseReader):
-    """Reader for FBX motion capture files. Supports ASCII FBX natively."""
-
+class FbxReader(BaseReader):
     def __init__(self):
         self._backend = None
 

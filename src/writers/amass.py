@@ -1,9 +1,7 @@
-"""AMASS NPZ writer for ASAP compatibility."""
-
-from pathlib import Path
-from typing import Dict, Optional
 import numpy as np
+from pathlib import Path
 from scipy.spatial.transform import Rotation as R
+from typing import Dict, Optional
 
 from src.writers.base import BaseWriter
 from src.core.motion import MotionData
@@ -11,13 +9,11 @@ from src.core.registry import FormatRegistry
 from src.core.mapping import JointMapping, SMPL_JOINTS
 
 
-# Rotation to convert from Y-up (FBX) to Z-up (SMPL) coordinate system
-# This is a +90 degree rotation around X axis: Y→Z, Z→-Y
 Y_UP_TO_Z_UP = R.from_euler("x", 90, degrees=True)
 
 
 @FormatRegistry.register_writer("amass", extensions=["npz"])
-class AMASSWriter(BaseWriter):
+class AmassWriter(BaseWriter):
     """
     Writer for AMASS NPZ format (ASAP-compatible).
 

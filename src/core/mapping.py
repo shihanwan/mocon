@@ -1,5 +1,3 @@
-"""Joint mapping configuration for SMPL conversion."""
-
 import json
 from pathlib import Path
 from typing import Dict, List, Optional

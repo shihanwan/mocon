@@ -7,8 +7,6 @@ from src.core.motion import MotionData
 
 
 class BaseReader(ABC):
-    """Abstract base class for motion file readers."""
-
     @abstractmethod
     def read(self, filepath: str | Path) -> MotionData:
         """

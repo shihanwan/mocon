@@ -1,19 +1,10 @@
-"""
-Universal motion data structure that all readers produce and all writers consume.
-"""
-
+import numpy as np
 from dataclasses import dataclass, field
 from typing import Optional, Dict, List
-import numpy as np
 
 
 @dataclass
 class MotionData:
-    """
-    Universal representation of motion capture data.
-    All readers convert to this format, all writers read from this format.
-    """
-
     # Core motion data
     joint_names: List[str]  # Names of joints in the skeleton
     joint_positions: np.ndarray  # (N, J, 3) world-space positions

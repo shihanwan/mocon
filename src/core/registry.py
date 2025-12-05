@@ -1,14 +1,7 @@
-"""
-Registry for extensible format support.
-New readers/writers can be registered without modifying core code.
-"""
-
-from typing import Dict, Type, Optional, List
+from typing import Dict, List
 
 
 class FormatRegistry:
-    """Registry for motion file format readers and writers."""
-
     _readers: Dict[str, Dict] = {}
     _writers: Dict[str, Dict] = {}
 

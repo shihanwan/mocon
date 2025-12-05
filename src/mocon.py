@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-mocon - Motion Capture Converter
-
-Convert motion capture files between formats.
-Currently supports: FBX → AMASS (ASAP-compatible)
-
-Usage:
-    mocon input.fbx                     # Convert to AMASS format
-    mocon input.fbx -o output.npz       # Specify output
-    mocon input.fbx --info              # Show file info only
-    mocon input.fbx --mapping cmu       # Use CMU joint mapping
-"""
 import argparse
 import sys
 from pathlib import Path
@@ -18,10 +5,8 @@ from pathlib import Path
 from src.core.registry import FormatRegistry
 from src.core.motion import MotionData
 from src.core.mapping import JointMapping, SMPL_JOINTS
-
-# Import readers/writers to register them
-from src.readers import fbx_reader  # noqa: F401
-from src.writers import amass_writer  # noqa: F401
+from src.readers.fbx import FbxReader  # noqa: F401
+from src.writers.amass import AmassWriter  # noqa: F401
 
 
 def convert(
