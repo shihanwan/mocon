@@ -1,0 +1,29 @@
+{
+  "name": "Mixamo / Xsens",
+  "description": "Standard Mixamo-style joint naming (also used by Xsens, Rokoko, ActorCore)",
+  "joints": {
+    "Hips": "Pelvis",
+    "LeftUpLeg": "L_Hip",
+    "RightUpLeg": "R_Hip",
+    "Spine": "Spine1",
+    "LeftLeg": "L_Knee",
+    "RightLeg": "R_Knee",
+    "Spine1": "Spine2",
+    "LeftFoot": "L_Ankle",
+    "RightFoot": "R_Ankle",
+    "Spine2": "Spine3",
+    "LeftToeBase": "L_Foot",
+    "RightToeBase": "R_Foot",
+    "Neck": "Neck",
+    "LeftShoulder": "L_Collar",
+    "RightShoulder": "R_Collar",
+    "Head": "Head",
+    "LeftArm": "L_Shoulder",
+    "RightArm": "R_Shoulder",
+    "LeftForeArm": "L_Elbow",
+    "RightForeArm": "R_Elbow",
+    "LeftHand": "L_Wrist",
+    "RightHand": "R_Wrist"
+  }
+}
+

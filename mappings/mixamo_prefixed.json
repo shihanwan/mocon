@@ -1,0 +1,29 @@
+{
+  "name": "Mixamo Prefixed",
+  "description": "Mixamo joints with 'mixamorig:' prefix (common when importing to Blender)",
+  "joints": {
+    "mixamorig:Hips": "Pelvis",
+    "mixamorig:LeftUpLeg": "L_Hip",
+    "mixamorig:RightUpLeg": "R_Hip",
+    "mixamorig:Spine": "Spine1",
+    "mixamorig:LeftLeg": "L_Knee",
+    "mixamorig:RightLeg": "R_Knee",
+    "mixamorig:Spine1": "Spine2",
+    "mixamorig:LeftFoot": "L_Ankle",
+    "mixamorig:RightFoot": "R_Ankle",
+    "mixamorig:Spine2": "Spine3",
+    "mixamorig:LeftToeBase": "L_Foot",
+    "mixamorig:RightToeBase": "R_Foot",
+    "mixamorig:Neck": "Neck",
+    "mixamorig:LeftShoulder": "L_Collar",
+    "mixamorig:RightShoulder": "R_Collar",
+    "mixamorig:Head": "Head",
+    "mixamorig:LeftArm": "L_Shoulder",
+    "mixamorig:RightArm": "R_Shoulder",
+    "mixamorig:LeftForeArm": "L_Elbow",
+    "mixamorig:RightForeArm": "R_Elbow",
+    "mixamorig:LeftHand": "L_Wrist",
+    "mixamorig:RightHand": "R_Wrist"
+  }
+}
+
